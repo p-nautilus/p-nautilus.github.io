@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://p-nautilus.github.io/sitemap.xml

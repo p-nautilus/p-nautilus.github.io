@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>p-Nautilus: ambientes de IA para la matemática</title>
+<meta name="description" content="p-Nautilus es un equipo conjunto de la Pontificia Universidad Católica de Chile y la Universidad Andrés Bello que construye ambientes de inteligencia artificial abiertos para ampliar la comprensión humana de la matemática y formar a la próxima generación de investigadores.">
+<link rel="canonical" href="https://p-nautilus.github.io/es/">
+<link rel="alternate" hreflang="en" href="https://p-nautilus.github.io/en/">
+<link rel="alternate" hreflang="es" href="https://p-nautilus.github.io/es/">
+<link rel="alternate" hreflang="x-default" href="https://p-nautilus.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="p-Nautilus: ambientes de IA para la matemática">
+<meta property="og:description" content="p-Nautilus es un equipo conjunto de la Pontificia Universidad Católica de Chile y la Universidad Andrés Bello que construye ambientes de inteligencia artificial abiertos para ampliar la comprensión humana de la matemática y formar a la próxima generación de investigadores.">
+<meta property="og:locale" content="es_CL">
+<meta name="theme-color" content="#f9fbf8">
+<link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..800;1,400..800&amp;family=Hanken+Grotesk:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body id="top">
+<a class="skip" href="#project">Saltar al contenido</a>
+<header class="top">
+  <div class="top-in">
+    <a class="brand" href="#top"><img src="../assets/img/nautilus_only.png" alt="" width="125" height="36">p-Nautilus</a>
+    <nav aria-label="Principal"><a href="#project">Proyecto</a><a href="#environments">Ambientes</a><a href="#open">Código abierto</a><a href="#team">Equipo</a></nav>
+    <a class="lang" href="../en/" hreflang="en" lang="en">English</a>
+  </div>
+</header>
+<main class="sheet">
+
+<section class="hero">
+  <h1 class="hero-title">Construyendo ambientes de <abbr title="inteligencia artificial">IA</abbr> para ampliar la comprensión humana de la matemática</h1>
+  <div class="hero-main">
+    <div>
+      <p class="lede">Una demostración producida por una máquina no es lo mismo que una demostración entendida por una comunidad. El proyecto p-Nautilus diseña, prueba y comparte de forma abierta ambientes de inteligencia artificial (IA) que ayudan a la próxima generación de investigadoras e investigadores a aprender, explorar y comunicar matemática.</p>
+      <p class="ctas"><a class="plain" href="https://github.com/p-nautilus/ai-environments">Explorar el código</a></p>
+    </div>
+  </div>
+</section>
+
+<section id="project">
+  <h2>El proyecto</h2>
+  <div class="body">
+    <p>Los sistemas de razonamiento automático ya pueden resolver preguntas matemáticas importantes con muy poca intervención humana. Pero el propósito de la matemática es ampliar la comprensión humana (Thurston, 1994), y la automatización no siempre lo favorece: <mark>una demostración producida por una máquina no es lo mismo que una demostración entendida por una comunidad.</mark></p><p>Las y los investigadores se han formado tradicionalmente resolviendo problemas abiertos de nivel inicial, y hoy los modelos de lenguaje de gran tamaño resuelven muchos de ellos a pedido. Creemos que se pueden construir nuevos métodos de formación a partir de ambientes de IA específicos y de protocolos de trabajo centrados en comunicar el razonamiento matemático. Los mismos ambientes podrían ayudar a matemáticas y matemáticos experimentados a entrar en temas técnicos de disciplinas vecinas y en problemas de relevancia social.</p>
+    <p>Nuestro objetivo es entregar ambientes de IA transferibles, junto con evidencia de qué tan bien funcionan, obtenida mediante métodos de las ciencias sociales.</p>
+  </div>
+</section>
+
+<section id="environments">
+  <h2>Ambientes de IA</h2>
+  <div class="body">
+    <p>Tomamos prestadas algunas palabras clave de la ingeniería de IA.</p>
+    <p class="def"><b>habilidad:</b> Un conjunto de instrucciones precisas y reutilizables que hacen que un modelo se comporte de manera específica y consistente cada vez que aparece un tipo de tarea definido.</p><p class="def"><b>artefacto:</b> El resultado que produce una habilidad al completar una tarea específica. Los artefactos pueden ser intermedios o finales, y no son necesariamente reutilizables.</p><p class="def"><b>arnés:</b> Un ambiente operativo construido para un propósito, que orquesta a un agente de IA hacia una tarea: un conjunto de habilidades, la lógica que las coordina y las conexiones con herramientas externas, fuentes de datos e interfaces.</p><p class="def"><b>ambiente de IA:</b> Un arnés con un propósito de orientación matemática.</p>
+    <p>Por ejemplo, una habilidad puede guiar a un modelo en una primera lectura de un artículo desconocido; el mapa de lectura que produce es un artefacto; un arnés combina esa habilidad con otras y con las herramientas que un equipo necesita para toda una línea de trabajo.</p>
+  </div>
+</section>
+
+<section id="open">
+  <h2>Código abierto</h2>
+  <div class="body">
+    <p>Todo lo que construimos se publica de forma abierta: habilidades, arneses, conectores a herramientas externas, protocolos y documentación.</p>
+    <div class="tree" role="list"><span class="d">skills/</span><span>instrucciones reutilizables para un tipo de tarea definido</span><span class="d">harnesses/</span><span>habilidades, lógica de coordinación y conexiones</span><span class="d">connectors/</span><span>enlaces a herramientas, datos e interfaces externas</span><span class="d">protocols/</span><span>protocolos de trabajo para comunicar matemática</span><span class="d">evaluation/</span><span>bitácoras de trabajo y plantillas de informe</span></div>
+    <p class="ctas"><a class="btn" href="https://github.com/p-nautilus/ai-environments">Repositorio de ambientes de IA</a><a class="plain" href="https://github.com/p-nautilus">Organización en GitHub</a></p>
+  </div>
+</section>
+
+<section id="team">
+  <h2>Equipo</h2>
+  <div class="body wide">
+    <div class="boards"><div class="board"><h3>Comité matemático</h3><ul><li><span class="who">Ricardo Menares</span><span class="aff">Pontificia Universidad Católica de Chile</span></li><li><span class="who">Cristóbal Rojas</span><span class="aff">Pontificia Universidad Católica de Chile</span></li><li><span class="who">José Aliste</span><span class="aff">Universidad Andrés Bello</span></li><li><span class="who">Mauricio Duarte</span><span class="aff">Universidad Andrés Bello</span></li></ul></div><div class="board"><h3>Comité de ciencias sociales</h3><ul><li><span class="who">Simón Escoffier</span><span class="aff">Pontificia Universidad Católica de Chile</span></li><li><span class="who">Jeanne Hersant</span><span class="aff">Pontificia Universidad Católica de Chile</span></li><li><span class="who">Felipe Marín</span><span class="aff">Universidad Andrés Bello</span></li></ul></div></div>
+  </div>
+</section>
+
+</main>
+<footer class="foot">
+  <div class="foot-in">
+    <p><a href="https://github.com/p-nautilus/p-nautilus.github.io">Código fuente de este sitio</a> <a href="../en/" hreflang="en" lang="en">English</a></p>
+  </div>
+</footer>
+</body>
+</html>
